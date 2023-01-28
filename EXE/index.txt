@@ -1,0 +1,19 @@
+﻿EXE: Conte l’executable del programa.
+
+
+Inclou els seguents fitxers:
+
+
+- Compressor.jar
+        Executable creat amb Intellij IDEA
+
+
+- Descripcio_jocs_de_prova.pdf
+        Explicacio dels jocs de prova utilitzats en aquest executable.
+
+
+- JocsDeProva
+        Carpeta que conte tots els fitxers de textos, imatges i carpetes utilitzats en els jocs de prova.
+        Conte una carpeta amb els fitxers pels jocs de prova de comprimir.
+        Conte una carpeta amb els fitxers pels jocs de prova de descomprimir
+        Conte una carpeta amb els fitxers pels jocs de prova de comparar.

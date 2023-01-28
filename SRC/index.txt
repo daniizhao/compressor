@@ -1,0 +1,28 @@
+SRC: Conte el codi de les classes implementades del projecte
+
+- presentacio
+    Conte els fitxer de codi de les diferents classes de la capa de presentacio.
+
+- domini
+    Conte els fitxer de codi de les diferents classes de la capa de domini.
+
+- dades
+    Conte els fitxer de codi de les diferents classes de la capa de dades.
+
+- com
+    Llibreries d'Intellij Idea per tal que funcioni l'interficie grafica del programa.
+
+- AjudaPrograma
+    Conte els fitxers html amb el text de l'ajuda.
+
+- Makefile
+    Fitxer per compilar el codi fel projecte i generar el jar.
+    
+    Com compilar?
+    Escriu la comanda make all en un terminal des d'aquest directori.
+    Es generara l'executable Compressor_Compilat.jar a la carpeta EXE.
+    
+    Per esborrar els fitxers creats utilitza la comanda make clean.
+
+- Main.java
+    Codi de la classe principal del projecte.

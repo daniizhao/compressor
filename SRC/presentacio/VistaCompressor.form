@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacio.VistaCompressor">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="880" height="400"/>
+    </constraints>
+    <properties>
+      <doubleBuffered value="false"/>
+      <minimumSize width="-1" height="-1"/>
+      <preferredSize width="1000" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="c7563" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="71ba9" binding="comprimir" layout-manager="GridLayoutManager" row-count="10" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <tabbedpane title="COMPRIMIR"/>
+            </constraints>
+            <properties>
+              <minimumSize width="-1" height="-1"/>
+            </properties>
+            <border type="none" title=""/>
+            <children>
+              <component id="247fb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="30"/>
+                    <preferred-size width="130" height="30"/>
+                    <maximum-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Origen"/>
+                </properties>
+              </component>
+              <component id="3eda0" class="javax.swing.JTextField" binding="tbOrigenComp">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+              <component id="cfbd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="120" height="30"/>
+                    <preferred-size width="120" height="30"/>
+                    <maximum-size width="120" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Carpeta destí"/>
+                </properties>
+              </component>
+              <component id="3d302" class="javax.swing.JTextField" binding="tbDestiComp">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+              <component id="4fbd8" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="30"/>
+                    <preferred-size width="130" height="35"/>
+                    <maximum-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Nom fitxer sortida"/>
+                </properties>
+              </component>
+              <component id="6258a" class="javax.swing.JTextField" binding="tbNomSortidaComp">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="757d7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Algorisme"/>
+                </properties>
+              </component>
+              <component id="4fc2d" class="javax.swing.JComboBox" binding="cbAlgorismeComp">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="c92ff" class="javax.swing.JButton" binding="btnExaminarOrigenComp">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="30"/>
+                    <preferred-size width="50" height="30"/>
+                    <maximum-size width="50" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="..."/>
+                </properties>
+              </component>
+              <component id="7371d" class="javax.swing.JButton" binding="btnExaminarDestiComp">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="30"/>
+                    <preferred-size width="50" height="30"/>
+                    <maximum-size width="50" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="..."/>
+                </properties>
+              </component>
+              <grid id="bfd98" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="15" left="15" bottom="15" right="15"/>
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none" title="Estadístiques Locals"/>
+                <children>
+                  <component id="881fc" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Algorisme utilitzat:"/>
+                    </properties>
+                  </component>
+                  <hspacer id="6c93d">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="60574" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Temps de compressió:"/>
+                    </properties>
+                  </component>
+                  <component id="7c686" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Velocitat de compressió:"/>
+                    </properties>
+                  </component>
+                  <component id="b2f7e" class="javax.swing.JLabel" binding="lblAlgorismeCompressioResult">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <component id="24e3" class="javax.swing.JLabel" binding="lblTempsComprimirResult">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <component id="e4a1b" class="javax.swing.JLabel" binding="lblVelocitatComprimirResult">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <component id="16c17" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Grau de compressió:"/>
+                    </properties>
+                  </component>
+                  <component id="df230" class="javax.swing.JLabel" binding="lblGrauCompressioResult">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <vspacer id="98c29">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="680" height="14"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <component id="a16d1" class="javax.swing.JButton" binding="btnComprimir">
+                <constraints>
+                  <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="40"/>
+                    <preferred-size width="130" height="40"/>
+                    <maximum-size width="130" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Comprimir"/>
+                </properties>
+              </component>
+              <component id="e6cdc" class="javax.swing.JButton" binding="btnHelpComprimir">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="30"/>
+                    <preferred-size width="50" height="30"/>
+                    <maximum-size width="50" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="?"/>
+                </properties>
+              </component>
+              <component id="4b32f" class="javax.swing.JLabel" binding="lblJPEGComp">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Configuració de l'algorisme JPEG"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="ed35" class="javax.swing.JRadioButton" binding="rbMostreigOnComp">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <selected value="true"/>
+                  <text value="4:2:0"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="b33e7" class="javax.swing.JLabel" binding="lblMostreigJPEGComp">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Mostreig"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="f1544" class="javax.swing.JLabel" binding="lblQuantitzacioJPEGComp">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Quantització"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="49e0c" class="javax.swing.JRadioButton" binding="rbMostreigOffComp">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="4:4:4 (desactivat)"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="5a772" class="javax.swing.JRadioButton" binding="rbMatriuQualComp">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <selected value="true"/>
+                  <text value="Matriu per més qualitat d'imatge"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="abc4f" class="javax.swing.JRadioButton" binding="rbMatriuCompComp">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Matriu per major compressió"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="1412c" binding="descomprimir" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <tabbedpane title="DESCOMPRIMIR"/>
+            </constraints>
+            <properties>
+              <minimumSize width="-1" height="-1"/>
+            </properties>
+            <border type="none" title=""/>
+            <children>
+              <component id="1f904" class="javax.swing.JTextField" binding="tbOrigenDescomp">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+              <component id="17c24" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="30"/>
+                    <preferred-size width="130" height="30"/>
+                    <maximum-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Origen"/>
+                </properties>
+              </component>
+              <component id="6e3ad" class="javax.swing.JTextField" binding="tbCarpetaDestiDescomp">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+              <component id="6be59" class="javax.swing.JButton" binding="btnExaminarDestiDescomp">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="30"/>
+                    <preferred-size width="50" height="30"/>
+                    <maximum-size width="50" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="..."/>
+                </properties>
+              </component>
+              <component id="d6e70" class="javax.swing.JTextField" binding="tbNomSortidaDescomp">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <grid id="eed60" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="15" left="15" bottom="15" right="15"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none" title="Estadístiques locals"/>
+                <children>
+                  <component id="2d795" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Algorisme utilitzat:"/>
+                    </properties>
+                  </component>
+                  <component id="b11f6" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Temps de descompressió:"/>
+                    </properties>
+                  </component>
+                  <component id="ca90d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Velocitat de descompressió:"/>
+                    </properties>
+                  </component>
+                  <component id="47342" class="javax.swing.JLabel" binding="lblAlgorismeDescompressioResult">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <component id="593d6" class="javax.swing.JLabel" binding="lblTempsDescomprimirResult">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <component id="6e8fd" class="javax.swing.JLabel" binding="lblVelocitatDescomprimirResult">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <hspacer id="b45e2">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <component id="50c18" class="javax.swing.JButton" binding="btnExaminarOrigenDescomp">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="30"/>
+                    <preferred-size width="50" height="30"/>
+                    <maximum-size width="50" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="..."/>
+                </properties>
+              </component>
+              <component id="229f9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="30"/>
+                    <preferred-size width="130" height="30"/>
+                    <maximum-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Carpeta destí"/>
+                </properties>
+              </component>
+              <vspacer id="518f2">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="ceb58" class="javax.swing.JButton" binding="btnDescomprimir">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="40"/>
+                    <preferred-size width="130" height="40"/>
+                    <maximum-size width="130" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Descomprimir"/>
+                </properties>
+              </component>
+              <component id="bc842" class="javax.swing.JButton" binding="btnHelpDescomp">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="30"/>
+                    <preferred-size width="129" height="30"/>
+                    <maximum-size width="50" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="?"/>
+                </properties>
+              </component>
+              <component id="1c740" class="javax.swing.JLabel" binding="lblNomFitxerSortidaDesc">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="30"/>
+                    <preferred-size width="130" height="30"/>
+                    <maximum-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Nom fitxer sortida"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c0ef7" binding="comparar" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <tabbedpane title="COMPARAR"/>
+            </constraints>
+            <properties>
+              <minimumSize width="-1" height="-1"/>
+            </properties>
+            <border type="none" title=""/>
+            <children>
+              <component id="b4d86" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="30"/>
+                    <preferred-size width="130" height="30"/>
+                    <maximum-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Origen"/>
+                </properties>
+              </component>
+              <vspacer id="a808d">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="987c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="30"/>
+                    <preferred-size width="130" height="30"/>
+                    <maximum-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Algorisme"/>
+                </properties>
+              </component>
+              <component id="31bf5" class="javax.swing.JButton" binding="btnComparar">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="40"/>
+                    <preferred-size width="130" height="40"/>
+                    <maximum-size width="130" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Comparar"/>
+                </properties>
+              </component>
+              <component id="b9036" class="javax.swing.JTextField" binding="tbOrigenComparar">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+              <component id="977ec" class="javax.swing.JButton" binding="btnExaminarOrigenComparar">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="30"/>
+                    <preferred-size width="50" height="30"/>
+                    <maximum-size width="50" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="..."/>
+                </properties>
+              </component>
+              <component id="ecb5a" class="javax.swing.JComboBox" binding="cbAlgorismesComparar">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="8b57e" class="javax.swing.JButton" binding="btnHelpComparar">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="30"/>
+                    <preferred-size width="50" height="30"/>
+                    <maximum-size width="50" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="?"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c3b06" binding="estadistiques" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <tabbedpane title="ESTADÍSTIQUES GLOBALS"/>
+            </constraints>
+            <properties>
+              <minimumSize width="-1" height="-1"/>
+            </properties>
+            <border type="none" title=""/>
+            <children>
+              <component id="54a40" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="30"/>
+                    <preferred-size width="130" height="30"/>
+                    <maximum-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Algorisme"/>
+                </properties>
+              </component>
+              <hspacer id="462a">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="f4cd5" class="javax.swing.JComboBox" binding="cbAlgorismesEstadistiques">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <grid id="6f7b9" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="15" left="15" bottom="15" right="15"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none" title="Estadístiques Globals"/>
+                <children>
+                  <component id="bb428" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Algorisme:"/>
+                    </properties>
+                  </component>
+                  <hspacer id="629a0">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="b23aa" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Número Total de Compresions:"/>
+                    </properties>
+                  </component>
+                  <component id="e161" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Número Total de Descompresions:"/>
+                    </properties>
+                  </component>
+                  <component id="b0161" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Velocitat Mitjana Compressió:"/>
+                    </properties>
+                  </component>
+                  <component id="2e7ec" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Velocitat Mitjana Descompressió:"/>
+                    </properties>
+                  </component>
+                  <component id="45c26" class="javax.swing.JLabel" binding="lblAlgorisme">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <component id="220ae" class="javax.swing.JLabel" binding="lblNumCompresions">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <component id="72460" class="javax.swing.JLabel" binding="lblNumDescompresions">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <component id="2ef84" class="javax.swing.JLabel" binding="lblVelCompresio">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                  <component id="b39ac" class="javax.swing.JLabel" binding="lblVelDescompresio">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="---"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="62324" class="javax.swing.JButton" binding="btnHelpEstadistiques">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="50" height="30"/>
+                    <preferred-size width="50" height="30"/>
+                    <maximum-size width="50" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="?"/>
+                </properties>
+              </component>
+              <vspacer id="e1116">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="8921f" class="javax.swing.JButton" binding="btnExportarEstadistiques">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="130" height="40"/>
+                    <preferred-size width="130" height="40"/>
+                    <maximum-size width="130" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Exportar"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="rbGrupQuantitzacio">
+      <member id="5a772"/>
+      <member id="abc4f"/>
+    </group>
+    <group name="rbGrupMostreig">
+      <member id="ed35"/>
+      <member id="49e0c"/>
+    </group>
+  </buttonGroups>
+</form>

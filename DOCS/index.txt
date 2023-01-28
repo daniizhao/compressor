@@ -1,0 +1,22 @@
+﻿DOCS: Conte els documents de l’entrega.
+
+
+Inclou els seguents fitxers:
+- Diagrama_de_classes.pdf
+        Conte el diagrama de les classes del model del nostre projecte.
+
+
+- Especificacio_Casos_Us.pdf
+        Conte els casos d’us i la seva descripcio.
+
+
+- Estructures_dades_algorismes.pdf
+        Explicacio de les estructures de dades i algorismes utilitzats en el projecte.
+
+
+- Manual_usuari.pdf
+        Document amb l’explicacio del funcionament del programa .
+
+
+- Relacio_Classes-membres.pdf
+        Document que indica quines classes ha programat cada membre i un llistat de canvis realitzats respecte els comentaris de la primera entrega.

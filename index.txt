@@ -1,0 +1,30 @@
+﻿Carpeta arrel de l’entrega.
+
+
+
+
+Inclou els seguents fitxers:
+
+
+- Descripcio_Grup.txt
+        Inclou els noms dels membres del grup.
+        Inclou un llistat amb tots els canvis realitzats respecte la primera entrega.
+
+
+
+
+Inclou les seguents carpetes:
+- DOCS
+        Conte els documents de l’entrega.
+
+
+
+
+- SRC
+        Conte les classes implementades.
+
+
+
+
+- EXE
+        Conte l’executable del programa i els jocs de prova.
